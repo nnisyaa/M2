@@ -5,6 +5,8 @@
         height: 236px;
         border:solid 1px #C4C4C4;
         border-radius: 8.9792px;
+        margin-left:800px;
+        margin-top:300px;
     }
     .head-color{
         width: 336px;
@@ -33,6 +35,7 @@
     .greyArrowDown{
         border: none;
         background: none;  
+        cursor: pointer;
     }
     .input{
         margin-left: 28px;
@@ -56,10 +59,12 @@
         border: none;
         background: none;
         margin-left: -52px;
-        margin-top:10px;
+        margin-top: 10px;
+        cursor: pointer;
     }
     .greyx-picture{
         margin-left: -6px;
+        margin-top: -1px;
     }
     .greyx:hover {
         background-color: purple;
@@ -74,11 +79,13 @@
         background: #833AE0;
         margin-left: 92px;
         border-radius: 71px;
+        cursor: pointer;
     }
     .add{
         width: 150px;
         height: 42px;
         display: flex;
+        cursor: pointer;
     }
     .add-text{
         font-family: 'Roboto';
@@ -87,12 +94,14 @@
         border: none;
         background: none;
         color: white;
+        cursor: pointer;
     }
    .circle{
         width: 42px;
         height: 42px;
         background: #9953F1;
         border-radius: 71px;
+        cursor: pointer;
     }
     .circle-text{
         width: 42px;
@@ -106,4 +115,5 @@
         margin-left:10px;
         border: none;
         background: none;
+        cursor: pointer;
     }
