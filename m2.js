@@ -1,10 +1,10 @@
 const greyArrowDown = document.querySelector('.greyArrowDown');
 
 greyArrowDown.addEventListener('mouseover', (event) => {
-    event.target. = '';
+    event.target = '';
 });
 greyArrowDown.addEventListener('mouseout', (event) => {
-    event.target. = 'green';
+    event.target = 'green';
 });
 
 
@@ -32,10 +32,6 @@ let array = []
 addContex.onclick= function(){
     if (input.value.length==0){
         alert('The space cant be empty')
-    }
-    else{
-        newAddSpaces.innerHTML +=
-
     }
 }
 
