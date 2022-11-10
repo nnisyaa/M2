@@ -30,6 +30,10 @@
         margin-left: 281px;
         margin-top:10px;
     }
+    .greyArrowDown{
+        border: none;
+        background: none;  
+    }
     .input{
         margin-left: 28px;
         margin-top: 11px;
@@ -53,6 +57,13 @@
         background: none;
         margin-left: -52px;
         margin-top:10px;
+    }
+    .greyx-picture{
+        margin-left: -6px;
+    }
+    .greyx:hover {
+        background-color: purple;
+        border-radius: 50%;
     }
     .add-button{
         width: 150px;
